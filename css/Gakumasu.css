@@ -1,3 +1,14 @@
 h1 {
     color:red;
+    font-family: "Meiryo";
+    font-weight: bold;
+}
+
+content {
+    color:red;
+}
+
+#gakumasu {    
+  display: flex;
+  flex-direction: row;
 }
