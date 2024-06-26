@@ -4,11 +4,36 @@ h1 {
     font-weight: bold;
 }
 
-content {
-    color:red;
+h2 {
+  padding: 0px 0px 0px 50px;
+  color:red;
 }
 
-#gakumasu {    
+h2 .produce {
+  position: center;
+}
+
+#gakumasu {
+  position: relative;
   display: flex;
   flex-direction: row;
+  z-index: 1;
+}
+
+video {
+  display: block;
+}
+
+.aicon {
+  position: absolute;
+}
+
+.chara {
+  flex-direction: row;
+  display: flex;
+}
+
+.aiueo {
+  padding: 0.4%;
+  margin: 0.4%;
 }
