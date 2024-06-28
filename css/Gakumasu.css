@@ -1,6 +1,9 @@
 body{
-  margin: 0px 200px 0px 200px;
-  background-image: "Img/Gakumasu_Img/咲季プロフ.png";
+  margin: 0px 37px 0px 37px;
+}
+
+#summary {
+  background: url("../Img/Gakumasu_Img/ことねプロフ.png") repeat;    
 }
 
 h1 {
@@ -51,5 +54,13 @@ video {
 }
 
 .prof {
-  padding: 0px 5px 0px 100px;
+  padding: 0px 5px 0px 0px;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  z-index: 1;
+}
+
+.profpicture {
+  padding: 5px 500px 5px 500px;
 }
