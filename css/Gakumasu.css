@@ -1,3 +1,8 @@
+body{
+  margin: 0px 200px 0px 200px;
+  background-image: "Img/Gakumasu_Img/咲季プロフ.png";
+}
+
 h1 {
     color:red;
     font-family: "Meiryo";
@@ -33,7 +38,18 @@ video {
   display: flex;
 }
 
-.aiueo {
+.btn {
   padding: 0.4%;
   margin: 0.4%;
+}
+
+#charactor {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  z-index: 1;
+}
+
+.prof {
+  padding: 0px 5px 0px 100px;
 }
