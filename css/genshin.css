@@ -1,3 +1,9 @@
 h1 {
-    color:red;
+    color:rgb(76, 76, 205);
+}
+h3{
+    color: aliceblue;
+    background-color: #655ec2;
+    margin: 5px;
+    padding: 5px;
 }
