@@ -1,7 +1,13 @@
-h1 {
-    color:red;
-    font-size: 200%;
+body {
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
+h1 {
+    color:white;
+    font-size: 200%;
+    background-color: red;
+    padding-left: 1%;
 }
 
 #content {
@@ -11,8 +17,17 @@ h1 {
     z-index: 1;
 }
 
+p {
+    padding: 1px;
+    background-color:;
+    border: 2px solid black;
+}
+
 #controler {
-    padding: 10px;
-    border-color: black;
-    border: 5px;
+    margin: 10%;
+}
+
+#game {
+    margin: 20px;
+    padding: 20px;
 }
